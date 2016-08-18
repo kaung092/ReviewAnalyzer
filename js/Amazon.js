@@ -6,13 +6,12 @@ function getComments(){
 		});
 		alert('Click on Review Analyzer icon to get more insight about the reviews!');
 		console.log(comments);
-		/*
-		$('html').append("<span class='frame-wrapper'>"
-										+"<p>Hello</p>"								
-										+"</span>");
 
-		$('.frame-wrapper').draggable();
-		*/
+//		$('html').append("<span class='frame-wrapper'>"
+//										+"<p>Hello</p>"								
+//										+"</span>");
+//
+//		$('.frame-wrapper').draggable();
 
 		if(comments!=[]){
 			console.log('has data');
